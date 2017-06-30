@@ -11,14 +11,14 @@ How I think this works
 - hz is served over localhost:8181
 
 For production / Future Improvements
-Vuex if necessary (should be as simple as --save with npm then setup accordingly)
-Changing the horizon server to serve on a docker instance
+-Vuex if necessary (should be as simple as --save with npm then setup accordingly)
+-Changing the horizon server to serve on a docker instance
 or
-Use Caddy as a reverse proxy to the localhost port
+-Use Caddy as a reverse proxy to the localhost port
 or
-Restructure the application to include the @horizon or the vue horizon package so that you can serve a regular build through caddy
+-Restructure the application to include the @horizon or the vue horizon package so that you can serve a regular build through caddy
 or
-Attempt to serve this /build through caddy
+-Attempt to serve this /build through caddy
 
 ## Build Setup
 
